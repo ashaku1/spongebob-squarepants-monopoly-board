@@ -1,0 +1,13 @@
+# Text file normalization
+node_modules/* linguist-vendored
+*.js linguist-detectable
+**/*.js linguist-detectable
+*.ico binary
+*.yaml linguist-detectable=false
+
+yarn.lock linguist-generated
+public/*.html linguist-vendored
+public/** linguist-vendored
+*.jpeg binary
+
+* text=auto
